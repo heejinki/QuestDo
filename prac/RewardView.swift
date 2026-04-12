@@ -155,9 +155,6 @@ struct RewardView: View {
                 .frame(height: 8)
             }
 
-            Text("오늘 남은 XP: \(rewardManager.remainingDailyXP)")
-                .font(.caption2)
-                .foregroundStyle(.tertiary)
         }
         .padding(20)
         .glassCard()
