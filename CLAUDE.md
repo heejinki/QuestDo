@@ -45,25 +45,25 @@
 
 ## 프로젝트 구조 (prac/)
 
-| 파일 | 모듈 | 역할 |
-|------|------|------|
-| `TodoItem.swift` | Models | 할일 데이터 + 난이도 + 검수상태(ReviewStatus) |
-| `UserProfile.swift` | Models | 유저 XP/레벨/뱃지 + 프로필 정보 + BadgeCatalog |
-| `TodoStore.swift` | ViewModels | 할일 CRUD + 검수 승인/거절 + 로컬 저장 |
-| `RewardManager.swift` | ViewModels | XP 부여/차감 + 레벨업 + 연속달성 + 뱃지 해금 + 프로필 관리 |
-| `GlassModifier.swift` | Components | 리퀴드 글래스 스타일 + 앱 배경 |
-| `CalendarView.swift` | Views | 월간 캘린더 + 날짜 선택 + 년월 피커 |
-| `TodoListView.swift` | Views | 할일 목록 + 완료 메모 시트 + 검수상태 표시 |
-| `RewardView.swift` | Views | 프로필 편집 + 레벨/XP/뱃지 표시 |
-| `ReviewView.swift` | Views | 피어 검수 + 내 검수 현황 |
-| `RankingView.swift` | Views | 랭킹 (현재 목업, 서버 연동 필요) |
-| `ShopView.swift` | Views | 경험치 상점 (XP로 리워드 교환) |
-| `AchievementTitle.swift` | Models | 칭호/해시태그 시스템 + TitleStats |
-| `AuthManager.swift` | ViewModels | 인증 상태 관리 (로그인/로그아웃/관리자) |
-| `LoginView.swift` | Views | 로그인 + 회원가입 (소셜/이메일) |
-| `AdminView.swift` | Views | 관리자 대시보드 (비밀번호: 4268) |
-| `SplashView.swift` | Views | 앱 실행 시 스플래시 애니메이션 |
-| `ContentView.swift` | Root | 스플래시 → 로그인 → 메인 탭 라우팅 |
+| 파일                     | 모듈       | 역할                                                       |
+| ------------------------ | ---------- | ---------------------------------------------------------- |
+| `TodoItem.swift`         | Models     | 할일 데이터 + 난이도 + 검수상태(ReviewStatus)              |
+| `UserProfile.swift`      | Models     | 유저 XP/레벨/뱃지 + 프로필 정보 + BadgeCatalog             |
+| `TodoStore.swift`        | ViewModels | 할일 CRUD + 검수 승인/거절 + 로컬 저장                     |
+| `RewardManager.swift`    | ViewModels | XP 부여/차감 + 레벨업 + 연속달성 + 뱃지 해금 + 프로필 관리 |
+| `GlassModifier.swift`    | Components | 리퀴드 글래스 스타일 + 앱 배경                             |
+| `CalendarView.swift`     | Views      | 월간 캘린더 + 날짜 선택 + 년월 피커                        |
+| `TodoListView.swift`     | Views      | 할일 목록 + 완료 메모 시트 + 검수상태 표시                 |
+| `RewardView.swift`       | Views      | 프로필 편집 + 레벨/XP/뱃지 표시                            |
+| `ReviewView.swift`       | Views      | 피어 검수 + 내 검수 현황                                   |
+| `RankingView.swift`      | Views      | 랭킹 (현재 목업, 서버 연동 필요)                           |
+| `ShopView.swift`         | Views      | 경험치 상점 (XP로 리워드 교환)                             |
+| `AchievementTitle.swift` | Models     | 칭호/해시태그 시스템 + TitleStats                          |
+| `AuthManager.swift`      | ViewModels | 인증 상태 관리 (로그인/로그아웃/관리자)                    |
+| `LoginView.swift`        | Views      | 로그인 + 회원가입 (소셜/이메일)                            |
+| `AdminView.swift`        | Views      | 관리자 대시보드 (비밀번호: 4268)                           |
+| `SplashView.swift`       | Views      | 앱 실행 시 스플래시 애니메이션                             |
+| `ContentView.swift`      | Root       | 스플래시 → 로그인 → 메인 탭 라우팅                         |
 
 ### 검수 시스템
 
@@ -87,3 +87,5 @@
 > 오류를 해결할 때마다 아래에 항목을 추가한다.
 
 (아직 기록 없음)
+
+(맥미니에서 테스트 커밋)
